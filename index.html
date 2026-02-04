@@ -16,7 +16,7 @@
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-            background: rgb(139, 182, 220);
+            background: whitesmoke;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
 
@@ -28,7 +28,7 @@
         h2 {
             text-align: center;
             font-size: 1.5em;
-            color: #0e1313;
+            color: #e94d58;
             margin: 15px 0;
         }
 
@@ -50,26 +50,26 @@
             outline: none;
             cursor: pointer;
             box-shadow: 0 2px 4px gray;
-            border: 2px solid #4dcfe9;
+            border: 2px solid #e94d58;
             font-size: 1.2em;
         }
 
         button:nth-child(1) {
             margin-left: -200px;
-            background: #4dcfe9;
+            background: #e94d58;
         }
 
         button:nth-child(2) {
             margin-right: -200px;
             background: white;
-            color: #4dcfe9;
+            color: #e94d58;
         }
     </style>
 </head>
 <body>
     <div class="wrapper">
-        <h2 class="question">Do you wanna rail me?</h2>
-        <img class="gif" alt="gif" src="https://media.giphy.com/media/iQ6yGuMhPGWhW/giphy.gif"/>
+        <h2 class="question">Will you go out with me Jayanth?</h2>
+        <img class="gif" alt="gif" src="https://media.giphy.com/media/FTGah7Mx3ss04PcasF/giphy.gif"/>
         <div class="btn-group">
             <button class="yes-btn" onclick="handleYesClick()">Yes</button>
             <button class="no-btn">No</button>
@@ -83,12 +83,11 @@
         const noBtn = document.querySelector(".no-btn");
 
         function handleYesClick() {
-            question.innerHTML = "Yay, see my ass for now!";
-            gif.src = "https://media.giphy.com/media/DgxiwsHLlRAN5A4yEZ/giphy.gif";
+            question.innerHTML = "Yay, see you Tomorrow Chinu!";
+            gif.src = "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
             // Hide the buttons
             yesBtn.style.display = "none";
             noBtn.style.display = "none";
-            
         }
 
         noBtn.addEventListener("mouseover", () => {
